@@ -17,7 +17,8 @@ export async function render(pageContext: PageContextServer) {
   )
 
   const { documentProps } = pageContext.exports
-  const title = documentProps?.title ?? '一般社団法人 幽霊電網'
+  const title =
+    documentProps?.title != null ? `${documentProps.title} | 一般社団法人 幽霊電網` : '一般社団法人 幽霊電網'
   const description =
     documentProps?.description ??
     '当法人は、情報通信システムの設計・運用・構築を通じて、技術者育成に寄与することを目的としています。'

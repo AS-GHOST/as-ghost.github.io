@@ -5,6 +5,10 @@ import rehypeRaw from 'rehype-raw'
 
 import aoiMd from './aoi.md?raw'
 
+export const documentProps = {
+  title: '定款',
+}
+
 export function Page() {
   return (
     <div className="aoi-container">
