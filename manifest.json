@@ -12,7 +12,7 @@
       "src/renderer/_error.page.tsx",
       "src/renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entries/entry-server-routing.4903153d.js",
+    "file": "assets/entries/entry-server-routing.74b3cb50.js",
     "imports": [
       "_chunk-2ff1d60b.js"
     ],
@@ -26,7 +26,7 @@
       "src/renderer/_error.page.tsx",
       "src/renderer/_default.page.client.tsx"
     ],
-    "file": "assets/entries/entry-client-routing.721371de.js",
+    "file": "assets/entries/entry-client-routing.f1c0615f.js",
     "imports": [
       "_chunk-2ff1d60b.js"
     ],
@@ -41,7 +41,7 @@
     "css": [
       "assets/static/index.page.381389c1.css"
     ],
-    "file": "assets/entries/src_pages_aoi_index.page.8b1f581e.js",
+    "file": "assets/entries/src_pages_aoi_index.page.60861d1c.js",
     "imports": [
       "_chunk-33c17f51.js"
     ],

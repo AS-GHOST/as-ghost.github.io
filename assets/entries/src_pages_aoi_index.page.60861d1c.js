@@ -287,4 +287,4 @@ import{g as ve,R as Be,j as Lr}from"../chunks/chunk-33c17f51.js";const xr=["http
 ### 第33条 (法令の準拠)
 
 この定款に定めのない事項は、全て一般法人法その他の法令に従う。
-`;function i8(){return Lr.jsx("div",{className:"aoi-container",children:Lr.jsx(Co,{className:"aoi",rehypePlugins:[Y4],children:j4})})}export{i8 as Page};
+`,i8={title:"定款"};function s8(){return Lr.jsx("div",{className:"aoi-container",children:Lr.jsx(Co,{className:"aoi",rehypePlugins:[Y4],children:j4})})}export{s8 as Page,i8 as documentProps};
