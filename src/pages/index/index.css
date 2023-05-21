@@ -1,0 +1,115 @@
+@import "../../base.css";
+
+.container {
+  min-height: 100dvh;
+  width: 100%;
+
+  color: var(--color);
+  background-color: var(--bg-color);
+}
+
+.content {
+  min-height: 100dvh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  backdrop-filter: blur(0.6rem) brightness(0.6);
+
+  @media (--viewport-md) {
+    padding: 5rem 0;
+  }
+}
+
+.box-text {
+  --bg-color: #000;
+  background-color: var(--bg-color);
+
+  box-decoration-break: clone;
+  padding: 0.5rem;
+
+  :is(h1) & {
+    padding: 0.5rem 1rem;
+  }
+}
+
+.heading {
+  flex-basis: 30%;
+  padding: min(2rem, 24px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  & h1, div {
+    word-break: keep-all;
+  }
+
+  & h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.links {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  > .link, > .link-container {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.link {
+  font-size: 2rem;
+  padding: 0 2rem 0 1rem;
+  transition: margin-left 0.25s;
+  cursor: pointer;
+
+  &::after {
+    position: absolute;
+    margin-left: 0.5rem;
+    content: '〉';
+    transition: inherit;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: var(--color);
+      color: var(--bg-color);
+
+      &::after {
+        margin-left: 0.8rem;
+      }
+    }
+  }
+
+  &.link-active {
+    background-color: var(--color);
+    color: var(--bg-color);
+
+    &::after {
+      margin-left: 0.8rem;
+    }
+  }
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  > .link-group {
+    padding-left: 2rem;
+  }
+}
+
+.link-group {
+  display: flex;
+  flex-direction: column;
+}

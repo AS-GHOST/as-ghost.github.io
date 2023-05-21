@@ -1,0 +1,13 @@
+@custom-media --viewport-xs (width < 320px);
+@custom-media --viewport-sm (width >= 320px);
+@custom-media --viewport-md (width >= 768px);
+@custom-media --viewport-lg (width >= 992px);
+@custom-media --viewport-xl (width >= 1200px);
+@custom-media --viewport-xxl (width >= 1400px);
+
+:root {
+  --color: #ffffff;
+  --bg-color: #141414;
+
+  color-scheme: light;
+}

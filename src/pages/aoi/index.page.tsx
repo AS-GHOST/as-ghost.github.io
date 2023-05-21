@@ -1,0 +1,14 @@
+import './index.css'
+
+import ReactMarkdown from 'react-markdown'
+import rehypeRaw from 'rehype-raw'
+
+import aoiMd from './aoi.md?raw'
+
+export function Page() {
+  return (
+    <div className="aoi-container">
+      <ReactMarkdown className="aoi" rehypePlugins={[rehypeRaw]} children={aoiMd} />
+    </div>
+  )
+}

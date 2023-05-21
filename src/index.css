@@ -1,0 +1,38 @@
+@import "./base.css";
+
+html {
+  visibility: hidden;
+
+  &.wf-active, &.loading-delay {
+    visibility: visible;
+  }
+
+  @media (--viewport-xs) {
+    font-size: 12pt;
+  }
+
+  @media (--viewport-sm) {
+    font-size: 14pt;
+  }
+
+  @media (--viewport-md) {
+    font-size: max(2svmin, 16pt);
+  }
+}
+
+body {
+  font-family: toppan-bunkyu-mincho-pr6n, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  font-style: normal;
+}
