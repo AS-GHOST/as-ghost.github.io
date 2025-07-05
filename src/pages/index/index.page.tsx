@@ -45,6 +45,14 @@ export function Page() {
               <Link label="事業報告書" href="/public-notice/2022/annual-report.pdf" />
               <Link label="収支計算書" href="/public-notice/2022/financial-statement.pdf" />
             </Link>
+            <Link label="2023年度">
+              <Link label="事業報告書" href="/public-notice/2023/annual-report.pdf" />
+              <Link label="収支計算書" href="/public-notice/2023/financial-statement.pdf" />
+            </Link>
+            <Link label="2024年度">
+              <Link label="事業報告書" href="/public-notice/2024/annual-report.pdf" />
+              <Link label="収支計算書" href="/public-notice/2024/financial-statement.pdf" />
+            </Link>
           </Link>
         </div>
       </div>
